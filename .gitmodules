@@ -2,3 +2,12 @@
 	path = start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
 	branch = release
+[submodule "start/nerdtree"]
+	path = start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "start/vim-airline"]
+	path = start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "start/tagbar"]
+	path = start/tagbar
+	url = https://github.com/preservim/tagbar.git
