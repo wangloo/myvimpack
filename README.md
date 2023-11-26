@@ -9,5 +9,5 @@ cd myvimpack/
 
 # run `check.sh` first, check dependence
 ./check.sh
-git submodule update --init --remote
+git submodule update --init
 ```
