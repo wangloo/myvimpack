@@ -11,3 +11,6 @@
 [submodule "start/tagbar"]
 	path = start/tagbar
 	url = https://github.com/preservim/tagbar.git
+[submodule "start/nerdcommenter"]
+	path = start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
