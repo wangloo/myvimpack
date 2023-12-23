@@ -1,4 +1,5 @@
-## 介绍
+## Introduce
+
 此项目为了方便我同步 `~/.vim/pack` 目录下的插件. 
 
 *pack system* 是vim8.0 版本引入的, 属于管理插件的一种更加简单的方式.
@@ -10,8 +11,8 @@ manually by the user with the command `:packadd`.
 
 > More about *pack system*, see [Here](https://medium.com/@paulodiovani/installing-vim-8-plugins-with-the-native-pack-system-39b71c351fea).
 
-## 使用方式
 
+## 安装框架到新设备
 
 ```sh
 mkdir ~/.vim/pack/
@@ -22,4 +23,12 @@ cd myvimpack/
 # run `check.sh` first, check dependence
 ./check.sh
 git submodule update --init
+```
+
+## Usage of vim8-pack
+
+```sh
+# Add new plugin
+cd myvimpack/
+git submodule add https://github.com/scrooloose/nerdtree plugins/start/nerdtree
 ```
