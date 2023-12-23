@@ -14,3 +14,6 @@
 [submodule "start/nerdcommenter"]
 	path = start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git
+[submodule "start/a.vim"]
+	path = start/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
