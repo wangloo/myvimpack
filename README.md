@@ -31,4 +31,10 @@ git submodule update --init
 # Add new plugin
 cd myvimpack/
 git submodule add https://github.com/scrooloose/nerdtree plugins/start/nerdtree
+
+# Generate help docs in vim
+# excute following command in vim command, e.g.
+# :helptags ~/.vim/pack/myvimpack/LeaderF/doc
+# will add LeaderF help docs into vim ==> :h LeaderF
+:helptags <dir> 
 ```
